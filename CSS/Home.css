@@ -1,0 +1,740 @@
+ body {
+        font-family: 'Hind', sans-serif;
+        font-weight: 300;
+        min-width: 330px !important;
+}
+ .hospital-logo{
+            padding: 10px;
+            width: 200px;
+            min-width: 30px;
+            float: left;
+            clear: right;
+}
+
+ #hamburger {
+            border-color: transparent;
+}
+
+ .navbar{
+          padding-top: 0;
+          padding-bottom: 0;
+}
+
+  #search{
+          width: 100%;
+          background-color: rgb(0, 117, 186);
+}
+
+ .light-bg {
+   background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url('../Assets/hero_image.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   overflow-x: visible;
+   background-position: 0px -20px;
+   background-attachment: fixed;
+}
+
+ .center {
+    margin: 0 auto;
+    width: 85%;
+}
+
+ #hero .container {
+   height: 60vh;
+   padding-bottom: 20vh;
+ }
+
+ .search-container{
+   padding-top: 4vh;
+   height: 20vh;
+   width: 80%;
+ }
+
+ .hero-heading {
+   font-size: 2rem;
+   font-family: 'Hind', sans-serif;
+   margin-top: 16vh;
+ }
+
+ #opportunities{
+  background-image:linear-gradient(rgba(239, 247, 255, 0.85),rgba(239, 247, 255, 0.85)), url('../Assets/category-image-1.jpg');
+  height: 15vw;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #nursing{
+  background-image:linear-gradient(rgba(212, 217, 223, 0.9),rgba(212, 217, 223, 0.9)), url('../Assets/category-image-2.jpg');
+  height: 15vw;;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #browseAll{
+  background-color: rgb(0, 117, 186);
+ height: 15vw;;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #browseAll h5 {
+color: white;
+font-weight: normal;
+ }
+
+ svg.bi-search {
+   fill: white;
+ }
+
+ svg{
+   width:10%; 
+   height:10%;
+   fill: rgb(57, 57, 57);
+   min-width: 25px;
+   min-height: 25px;
+   padding-top: 2%;
+ }
+
+ h5 {
+   padding: 1% 2% 0;
+   font-weight: 600;
+   color: rgb(57, 57, 57);
+ }
+ .imageContainer {
+   
+    width: 33%;
+    height: 25px;
+    overflow: hidden;
+}
+
+.vertical-center {
+  height: 100%;
+}
+
+.explore{
+  
+  color:gray;
+  margin: 3% 0 3%;
+  font-size: 1.6rem;
+}
+#backdrop-section{
+  margin-left: 6%;
+}
+
+.backdrop {
+  z-index: 1;
+    height: 9vw;
+    width: 65%;
+    margin: 1.5% 0 0 8%;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+}
+
+.shadowRow{
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  margin-left: 9%;
+  height: 5vw;
+}
+
+.fullShadowRow{
+  z-index: 2;
+  position: absolute;
+  margin-top: 12vw;
+    height: 3.75vw;
+    margin-left: 1%;
+    width: 85%;
+    font-weight: bold;
+}
+
+.shadowCard{
+  width: 27%;
+  margin: -5% 1%;
+  background-color: white;
+}
+
+.shadow-rnd{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+}
+
+.featured {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10% 10vh 0;
+}
+
+#featured{
+   padding-bottom: 6%;
+ }
+
+#featured::after{
+  content: '';
+  position: absolute;
+  min-width: 5em;
+  height: 2.5px;
+  background-color: rgb(0, 117, 186);
+  border-radius: 5rem;
+  margin-left: -2.5em;
+
+}
+
+.inline-symbol{
+  display: inline;
+  width: 8%;
+  margin-top: -2%;
+}
+
+.roles{
+  vertical-align: auto;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(0, 149, 255);
+  line-height: .1rem;
+}
+
+.roleContent ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  opacity: .35;
+  padding-bottom: 5px;
+}
+
+.roleContent li{
+  font-size: .7rem;
+  line-height: 1rem;
+  font-weight: bold;
+  display: block;
+  background-repeat: no-repeat; 
+  background-position: left top;
+  padding-left: 20px;
+  background-size: 14px 14px;
+}
+
+.tag-svg{
+  background-image: url(../Assets/tag-fill.svg);
+  
+}
+
+.chart-svg{
+  background-image: url(../Assets/chart.svg);
+}
+
+.building-svg{
+  background-image: url(../Assets/hospital.svg);
+  
+}
+
+.pin-svg{
+  background-image: url(../Assets/geo-alt-fill.svg);
+  
+}
+
+.clock-svg {
+  background-image: url(../Assets/clock-fill.svg);
+}
+.locationRow{
+  margin: auto;
+  margin-bottom: 1.5vw;
+  width: 60vw;
+}
+.locationItem{
+  background-size: 60vw;
+  background-repeat: no-repeat;
+  height: 13vw;
+  border-radius: 25px;
+  width: 100%;
+  padding: 0;
+}
+
+.oakland{
+  background-image: url(../Assets/exercising.jpg);
+  background-position: bottom;
+  
+}
+
+.woburn{
+  background-image: url(../Assets/temperature.jpg);
+  background-position: bottom;
+}
+
+.hayward{
+  background-image: url(../Assets/accessory-image-2.jpg);
+  background-position: center;
+}
+
+.leandro{
+  background-image: url(../Assets/accessory-image-1.jpg);
+  background-position: center;
+}
+
+.boston{
+  background-image: url(../Assets/planting.jpg);
+  background-position: center;
+}
+
+.featuredCenter{
+  margin: auto;
+  width: 99%;
+}
+
+div.col-10.fullShadowRow{
+  color: rgb(0, 149, 255);
+  padding: 1.75% 1.5% 1.5%;
+  font-size: .75rem;
+}
+
+.roleContent{
+  padding: 2vw 3vw 0 3vw;
+}
+a{
+ color: rgb(0, 149, 255);
+ text-decoration: none;
+}
+#locations{
+  background-color: rgba(238, 238, 238, 0.394);
+  padding: 2%;
+  width: 100%;
+}
+
+#locations h4{
+  color: rgb(132, 132, 132);
+  padding: 0 0 2%;
+
+}
+
+div.overlay {
+  background:linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8));
+  width: 49%;
+  height: 100%;
+  padding: 2%;
+  color: rgb(98, 98, 98);
+}
+
+div.oakland > div.overlay, div.hayward > div.overlay, div.boston > div.overlay {
+ 
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+div.woburn > div.overlay, div.leandro > div.overlay {
+  float: right;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.overlay h5 {
+  padding: 0;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: rgb(98, 98, 98);
+}
+
+.overlay p{
+  font-size: .85vw;
+}
+#FeaturedJobs{
+  height: 22vw;
+}
+
+.banner{
+  width: 100%;
+  padding: 2% 0 0;
+  margin: 0;
+  background-color: #efeeee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.banner h4, #working h4{
+  font-size: 1.6rem;
+  color: rgb(98, 98, 98);
+}
+
+.banner button {
+  margin-top: 3vw;
+  border-color: rgb(0, 23, 68);
+  background-color: rgb(0, 23, 68);
+}
+
+.banner button:hover {
+  border-color: rgb(0, 117, 186);
+  background-color: rgb(0, 117, 186);
+}
+
+.banner p {
+  font-size: .85vw;
+  color: rgb(98, 98, 98);
+}
+
+#working p, #working h5 {
+  padding-right: 9vw;
+  color: rgb(117, 117, 117);
+}
+
+#working p {
+  font-size: .9rem;
+}
+
+#working .col-lg-3{
+  width: 26%;
+  margin-top: 1vw;
+    margin-right: -1vw;
+}
+
+#working{
+  padding: 3vw 0;
+  width: 99%;
+}
+
+#perks{
+  padding: 4%;
+}
+
+.perkCard1{
+  background-image: url(../Assets/accessory-image-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.5vw;
+  background-position: top;
+background-size: 35vw;
+padding-bottom: 2vw;
+}
+
+.perkCard2{
+  background-image: url(../Assets/accessory-image-2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.5vw;
+  background-position: top;
+background-size: 35vw;
+padding-bottom: 3vw;
+margin-top: 2vw;
+}
+
+#perks h6{
+  color: rgb(117, 117, 117);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#perks p {
+  padding-right: 0;
+  font-size: .9rem;
+  color: rgb(117, 117, 117);
+}
+
+.arrow{
+  font-family: cursive;
+  font-weight: 900;
+  font-style: 1.2rem;
+}
+
+div.mobileFull > span.roles{
+   line-height: 1rem;
+ }
+
+.perkEnd{
+  padding-bottom: 1vw;
+}
+
+footer{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.foot-end{
+  background-color: rgb(0, 42, 79); 
+  width: 100%;
+  height: 4.5vw;
+  margin: 0;
+    padding: 1.7vw 0 0;
+  color: white;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.foot-start{
+  
+  width: 100%;
+  height: 7.8vw;
+  background-color: rgb(0, 117, 186);
+}
+
+div.socials {
+  padding: 1vw 6vw 0vw;
+    float: right;
+    text-align: center;
+}
+
+.inline{
+  width: 8%;
+}
+
+.socials p {
+      margin-bottom: 0;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 3.6vw;
+    margin-top: 0;
+    padding: 1%;
+
+}
+@media (min-width:1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+   
+}
+}
+
+@media screen and (max-width: 1300px)  {
+
+  .hero-heading{
+    margin-top: 5vh;
+  }
+  #hero > div.container{
+    margin-bottom: -25%;
+  }
+
+  div.main{ 
+    margin-top: 9%;
+  }
+}
+
+@media screen and (max-width: 1100px)  {
+
+div.main{
+  margin-top:3%
+}
+}
+
+ @media screen and (max-width: 990px)  {
+
+
+  .inline {
+    margin: 0 1vw;
+    width: 8%;
+}
+
+.foot-start{
+  height: 26vw;
+}
+
+div.socials{
+  float: none;
+}
+
+.foot-end{
+  height: 9vw;
+  font-size: 1.2rem;
+}
+
+  .socials p {
+    margin-bottom: 0;
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 1%;
+    margin-right: 0;
+  }
+  footer{
+    margin-top: 2vw;
+  }
+  #working .col-lg-3 {
+    width: 90%;
+    margin-right: 0;
+    margin-left: 1vw;
+  }
+  #working p {
+    padding: 2vw 7vw 2vw 9vw;
+}
+
+#working .col-lg-7 {
+  padding-right: 0;
+}
+
+#working h4{
+  text-align: center;
+  padding: 8% 5% 2%;
+}
+  .banner p {
+    font-size: 1.3vw;
+    padding: 0 2%;
+  }
+
+  .banner button{
+    margin-top: 5vw;
+  }
+
+  #locations h4{
+    padding: 5% 20%;
+  }
+
+  
+  #FeaturedJobs{
+  height: 60vw;
+}
+
+div.col-10.fullShadowRow {
+    padding: 2.5% 3% 5.5%;
+}
+
+ img.mobileFullImg{
+  width: 4%;
+    margin-top: -.5%;
+  }
+  .roleContent{
+  padding: 2% 0 0 3%;
+}
+
+  div.main{
+  margin-top:0
+}
+
+#browseAll, .mobileFull{
+  width: 100%;
+}
+
+.explore{
+  margin: 6vh 0 5vh;
+}
+
+.light-bg {
+   height: 400px;
+   width: 100%;
+   background-size: cover;
+ }
+
+ .hero-heading {
+   font-size: 2.5rem;
+   padding: 0 2vh;
+   font-family: 'Hind', sans-serif;
+   margin-top: 10vh;
+ }
+
+ h5 {
+   font-size: .9rem;
+   padding: 1% 5%;
+ }
+
+ .search-container{
+   width: 100%;
+ }
+
+ .keyword{
+   width: 80%;
+   margin: auto;
+ }
+
+ #keyword{
+  margin-top: -15px;
+  margin-bottom: 15px;
+ }
+
+ #search{
+  width: 60%;
+}
+
+.imageContainer{
+  width: 50%;
+}
+
+.mobileFullContainer{
+  width: 100%;
+}
+
+#opportunities, #nursing, #browseAll{
+  height: 25vw;
+ }
+
+ .shadowCard{
+   height: 20vw;
+   width: 40%;
+ }
+
+ .shadowCard.mobileFull{
+  width: 82%;
+  margin-top: 7%;
+  background-size: 5%;
+}
+
+.backdrop{
+  height: 38vw
+}
+
+.fullShadowRow{
+  width: 82%;
+  margin-top: 42.5vw;
+}
+
+#backdrop-section{
+  margin-left: 8%;
+}
+
+.locationRow {
+    width: 82vw;
+    margin-bottom: 5vw
+}
+
+.oakland, .woburn, .hayward, .leandro, .boston {
+    background-size: 100%;
+    height: 25vw;
+}
+
+.overlay h5 {
+  padding: 0;
+  margin: 0 0 2%;
+  font-size: 3vw;
+}
+
+.overlay p{
+  font-size: 1.5vw;
+  
+}
+
+.talentNetwork{
+  margin-left: 10%;
+}
+
+.perkCard1, .perkCard2{
+  height: 35vw;
+  background-size: 90vw;
+}
+
+.perkCard2 {
+  margin-top: 4vw;
+}
+
+#perks p{
+  padding: 0 0 2%;
+}
+
+#perks a{
+  padding-bottom: 5%;
+}
+
+
+ }
+
+@media screen and (max-width:500px) {
+
+  .roles{
+    font-size: .8rem;
+  }
+.roleContent li {
+    font-size: .45rem;
+     line-height: .6rem; 
+    background-size: 8px 8px;}
+  
+    .banner p {
+    font-size: 3vw;
+  }
+ .banner div.col-sm-5 {
+       text-align: center;
+ }
+
+ .banner button {
+   margin: 0;;
+ }
+}
+
