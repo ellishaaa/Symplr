@@ -1,229 +1,188 @@
 section.main{
-    width: 99%;
-  }
+  width: 99%;
+}
+div.description{
+  width: 70%;
+  margin: 0 .5vw;
+  padding: 1vw 4vw;
+}
+.description h1{
+  font-size: 2rem;
+  color: rgb(117, 117, 117);
+}
+div.related{
+  margin-top: 1.5vw;
+}
+.role {
+  padding: 0;
+}
+div.role.roleContent li{
+  border-style: none;
+  font-size: .85rem;
+}
+div.related{
+  padding: 0;
+  margin-left: 3%;
+  width: 22%;
+}
+.darker{
+  margin: 0 0 .25rem;
+  background-color: #f2f2f2;
+  padding: 0.9vw 0 0.1vw 1vw;
+}
+div.cards.shadow-sq{
+  padding: 1vw 1vw 0.5vw;
+}
+.fullShadow{
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  font-size: .9rem;
+  padding: 0.7rem 1rem 0;
+  margin-top: 2rem;
+}
+div.related li.li-other{
+  color: rgb(10, 139, 214);
+  padding-bottom: .4rem;
+  font-weight: 600;
+  line-height: 1.1rem;
+}
+div.related li.details{
+  opacity: .7;
+}
+div.cards.shadow-sq ul{
+  opacity: 1;
+}
+.shadow-sq{
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
+}
+.darker h3 {
+  font-size: 1.1rem;
+}
+li.small-svg{
+  background-size: 12px;
+  margin-left: 1px;
+}
+ul li.li-other{
+  padding: 0.12vw 0 0 0;
+  padding-left: 0;
+}
+li.details{
+  fill: blanchedalmond;
+}
+.lighter{
+  opacity: .7 !important;
+}
+div.role.roleContent ul{
+  opacity: .5;
+}
+#talent{
+  border-color: rgb(0, 23, 68);
+  background-color: rgb(0, 23, 68);
+}
+div.half.save{
+  float: right;
+  width: 22%;
+  text-align: center;
+  margin: 3vw;
+}
+#apply{
+  width: 90%;
+  background-color: rgb(0, 117, 186);
+  border-style: none;
+  font-size: .8rem;
+  margin-bottom: .5rem !important;
+}
+#save{
+  width: 90%;
+  background-color: rgb(243, 243, 243);
+  border-style: none;
+  font-size: .8rem;
+  font-weight: 600;
+  color: black;
+}
+h2.subhead{
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 1.5vw 0 0.8vw;
+  color: rgb(95, 95, 95);
+}
+div.summary{
+  padding: 0 4vw 2vw 0;
+}
+p.small-p{
+  font-size: .7rem;
+  opacity: .7;
+  margin-bottom: 0.6rem;
+}
+.share img{
+  width: 2.5%;
+}
+.share{
+  padding: 0 .75vw 2vw;
+}
+.shareApply{
+  width: 94%;
+}
+.share button {
+  width: 21%;
+  float: right;
+  background-color: rgb(0, 117, 186);
+  border-style: none;
+  font-size: .8rem;
+  margin-bottom: 0.5rem !important;
+  margin-top: -1.5rem;
+}
+li.relatedCard, li.details{
+  font-size: .9rem;
+}
+@media screen and (max-width: 990px){
   div.description{
-    width: 70%;
-   margin: 0 .5vw;
-    padding: 1vw 4vw;
-  }
-
-  .description h1{
-    font-size: 2rem;    
-    color: rgb(117, 117, 117);
-  }
-
-  div.related{
-    
-    margin-top: 1.5vw;
-  }
-
-  .role {
-    padding: 0;
-  }
-
-  div.role.roleContent li{
-    border-style: none;
-    font-size: .85rem;
-  }
-
-  div.related{
-    padding: 0;
-    margin-left: 3%;
-    width: 22%;
-  }
-  .darker{
-    margin: 0 0 .25rem;
-    background-color: #f2f2f2;
-    padding: 0.9vw 0 0.1vw 1vw;
-  }
-
-  div.cards.shadow-sq{
-   
-    padding: 1vw 1vw 0.5vw;
-  }
-
-  .fullShadow{
-    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-    font-size: .9rem;
-padding: 0.7rem 1rem 0;
-margin-top: 2rem;
-  }
-
-  div.related li.li-other{
-    color: rgb(10, 139, 214);
-    padding-bottom: .4rem;
-    font-weight: 600;
-    line-height: 1.1rem;
-  }
-
-  div.related li.details{
-    opacity: .7;
-  }
-  
-  div.cards.shadow-sq ul{
-   
-   opacity: 1;
+      width: 100%;
+      padding: 6vw 7vw 5vw 10vw;
  }
-  .shadow-sq{
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px;
-  }
-
   .darker h3 {
-    font-size: 1.1rem;
-  }
-  li.small-svg{
-    background-size:  12px;
-    margin-left: 1px;
-  }
-
-
-  ul li.li-other{
-    padding: 0.12vw 0 0 0;
-    padding-left: 0;
-  }
-
-  li.details{
-    fill: blanchedalmond;
-  }
-
-  .lighter{
-    opacity: .7 !important;
-  }
-
-  div.role.roleContent ul{
-    opacity: .5;
-  }
-
-  #talent{
-    border-color: rgb(0, 23, 68);
-background-color: rgb(0, 23, 68);
-  }
-
-
-  div.half.save{
-    float: right;
-    width: 22%;
-    text-align: center;
-    margin: 3vw;
-  }
-
-  #apply{
-    width: 90%;
-    background-color: rgb(0, 117, 186);
-    border-style: none;
-    font-size: .8rem;
-    margin-bottom: .5rem !important;
-  }
-  #save{
-    width: 90%;
-    background-color: rgb(243, 243, 243);
-    border-style: none;
-    font-size: .8rem;
-    font-weight: 600;
-    color: black;
-  }
-
-  h2.subhead{
-    font-size: .9rem;
-font-weight: 600;
-padding: 1.5vw 0 0.8vw;
-color: rgb(95, 95, 95);
-  }
-
-  div.summary{
-    padding: 0 4vw 2vw 0;
-  }
-  p.small-p{
-    font-size: .7rem;
-opacity: .7;
-margin-bottom: 0.6rem;
-  }
-
-  .share img{
-    width: 2.5%;
-  }
-  .share{
-    padding: 0 .75vw 2vw;
-  }
-
-  .shareApply{
-    width: 94%;
-  }
-
-  .share button {
-    width: 21%;
-float: right;
-background-color: rgb(0, 117, 186);
-border-style: none;
-font-size: .8rem;
-margin-bottom: 0.5rem !important;
-    margin-top: -1.5rem;
-  }
-
-  li.relatedCard, li.details{
-    font-size: .9rem;
-  }
-
-  @media screen and (max-width: 990px){
-
-  div.description{
-width: 100%;
-padding: 6vw 7vw 5vw 10vw;
-
-  }
-
-  .darker h3 {
-font-size: 1.9rem;
-margin-top: -1vw;
-font-weight: bold;
-}
-
+      font-size: 1.9rem;
+      margin-top: -1vw;
+      font-weight: bold;
+ }
   div.half.save {
-    
-float: right;
-width: 29%;
-text-align: center;
-margin: 3vw 0 3vw 0vw;
-
-  }
+      float: right;
+      width: 29%;
+      text-align: center;
+      margin: 3vw 0 3vw 0vw;
+ }
   div.cards.shadow-sq {
-padding: 4vw 4vw 1vw;
-  }
-  
+      padding: 4vw 4vw 1vw;
+ }
   li.relatedCard, li.details {
-font-size: 1rem;
-}
-
+      font-size: 1rem;
+ }
   div.related{
-    padding: 0;
-margin-left: 3%;
-width: 95%;
-padding: 1vw 6vw 7vw 6vw;
-  }
+      padding: 0;
+      margin-left: 3%;
+      width: 95%;
+      padding: 1vw 6vw 7vw 6vw;
+ }
   .share span {
-    font-size: 1.3rem;
-  }
-
+      font-size: 1.3rem;
+ }
   #apply2{
-    width: 35%;
-    height: 10vw;
-  }
-
+      width: 35%;
+      height: 10vw;
+ }
   .share img{
-    width: 5vw;
-    margin:  0;
-  }
+      width: 5vw;
+      margin: 0;
+ }
   #apply {
-margin-top: 10vw;
-}
+      margin-top: 10vw;
+ }
   .roleContent li{
-    background-size: 14px;
-  }
+      background-size: 14px;
+ }
   li.details, li.li-other {
-    margin: 3% 0;
-  }
-
+      margin: 3% 0;
+ }
   p.small-p{
-    font-size: .9rem;
-  }
-  }
+      font-size: .9rem;
+ }
+}
