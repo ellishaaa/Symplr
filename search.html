@@ -11,55 +11,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="CSS/Home.css" rel="stylesheet">
     <link href="CSS/details.css" rel="stylesheet">
+    <link href="CSS/search.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="Assets/favicon.png">
-    <title>General Surgeon - Positions at Woburn Hospital</title>
-    <style>
-      div.searchRow{
-        padding: 1vw 0 1vw 1vw;
-      }
-
-      div.row.bg-light.searchRow{
-        padding-bottom: 0;
-      }
-      div.searchrow div.textbox{
-        padding: 2px;
-        background-color: aliceblue;
-      }
-
-      div.textbox{
-        padding-right: 0;
-      }
-
-      #apply{
-        margin-top: 1%;
-        height: 70%;
-    margin-left: -2.5%;
-      }
-      
-      .searchRow input{ 
-        padding-right: 0;font-size: .9rem;
-        font-size: .9rem;
-    padding-bottom: 2px;
-      padding-right: 0;
-    margin-left: .5vw;}
-
-    @media screen and (max-width: 990px){
-      div.textbox{
-        padding-right: calc(var(--bs-gutter-x) * .5);
-      }
-
-      div.textbox2, div.textbox{
-        margin: auto;
-        padding: 5vw 5vw 5vw 4vw;
-
-      }
-
-
-      div.searchRow{
-        padding: 5vw 5vw 5vw 3.8vw;
-      }
-    }
-    </style>
+    <title>Job Search Results - Woburn Hospital</title>
 </head>
 <body>
 
@@ -96,17 +50,297 @@
 
      <!-- Start search bars -->
 
-     <div class="row bg-light searchRow">
+     <div class="row bg-light searchRow ">
        <div class="col-lg-5 col-md-10 col-sm-10 textbox">
-        <input type="text" class="form-control" id="keyword" placeholder="Enter keyword/s">
+        <input type="text" class="form-control" id="keyword" placeholder="Keyword, Job title, skills">
        </div>
        <div class="col-lg-5 col-md-10 col-sm-10 textbox2">
-        <input type="text" class="form-control" id="keyword" placeholder="Enter keyword/s">
+        <input type="text" class="form-control" id="keyword2" placeholder="Enter a location">
        </div>
-       <div class="col-lg-2 col-md-6 col-sm-6">
-          <button type="submit" id="apply" href="#" class="btn btn-primary mb-3">Apply Now</button>
+       <div class="col-lg-2 col-md-6 col-sm-6 searchbtn">
+          <button type="submit" id="search" href="#" class="btn btn-primary mb-3">Apply Now</button>
        </div>
      </div>
+
+      <!-- End search bars -->
+
+     
+
+        <div class="row jobSearch">
+
+         <!--Start filter bar -->
+
+          <div class="col-lg-3 col-md-12 col-sm-12 refineSearch">
+            <div class="clear underline">
+                <p>Refine Your Search 
+                  <span href="#"> Clear All</span>
+                </p>   
+            </div>
+            <div class="depts">
+              <span>Department
+                <img src="Assets/dash.svg">
+              </span>
+              
+            </div>
+            
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">3 North Med/Surg<span class="resultNum">41</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Home Health<span class="resultNum">14</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Arbours Homecare<span class="resultNum">13</span></li>
+                  </ul>
+              </div> 
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Cardiology Services<span class="resultNum">13</span></li>
+                  </ul>
+              </div> 
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Mattoon Clinic<span class="resultNum">10</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Cancer Program<span class="resultNum">9</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Med/Surg ha<span class="resultNum">9</span></li>
+                </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Emergency<span class="resultNum">8</span></li>
+                </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Share's Therapy Services<span class="resultNum">8</span></li>
+               </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details circle-svg">Dietary<span class="resultNum">7</span></li>
+                </ul>
+              </div>
+              <div class="clear more">
+                <span href="#">+ Show more</span>
+              </div>
+            
+                
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">City<span class="expand">+</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">State<span class="expand">+</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">Job Family<span class="expand">+</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">Facility<span class="expand">+</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">Schedule<span class="expand">+</span></li>
+                  </ul>
+              </div>
+              <div class="roleContent cards shadow-sq lt-underline">
+                <ul>
+                  <li class="details showMore">Shift<span class="expand">+</span></li>
+                  </ul>
+              </div>
+                  <div class="fullShadow">
+                    <p>Interested in working for Woburn Hospital?<br />Take the first step by joining our Talent Network today!</p>
+                    <div>
+                      <button type="submit" id="talent" class="btn btn-primary mb-3">Join our Talent Network</button>
+                    </div>
+                  </div>
+              </div>
+
+          <!--End filter bar -->
+
+          <!--Start map section -->
+
+          <div class="col-lg-9 col-sm-12 col-md-12 results">
+            
+            <h1>Job Search Results</h1>
+            <div class="row">
+                <div class="row locationRow">
+                  <div class="doctors locationItem">
+                    <div class="overlay">
+                      <h2>
+                        Working at Woburn Hospital
+                      </h2>
+                      <p>
+                        As a large and growing organization, we offer a full range of career options at every level of health care employment. We are a widely respected teaching institution, with nationally known teachers and physicians. Doctors work with the latest in state-of-the-art medical technology and top-performing, highly motivated support teams.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row" id="map-api">
+                <span class="mapHide">Hide map
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-map-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+                  </svg>
+                </span>
+                <img class="map" src="Assets/mapAPI.png">
+                <div class="row text-center">
+                  <span class="alertSetup"><img class="bell" src="Assets/bell-fill.svg">Set up Job Alert</span>
+                </div>
+              </div>
+              
+               <!--End map section -->
+
+               <!--Start open positions -->
+
+              <div class="row">
+                <div class="dropdown lt-underline">
+                  <label for="inputKeyword">Sort By:   </label>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Default
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row lt-underline">
+                <div class="role-pt1">
+                  <h5>General Surgeon</h5>
+                  <div class="roleContent ">
+                    <ul>
+                      <li class="details pin-svg"><span class="lg-li">Danville, NH, United States</span></li>
+                      <li class="details building-svg">Hospital Main Campus</li>
+                      <li class="details clock-svg">Full time - Varies</li>
+                      <li class="li-other lighter"><span class="li-label ">Req #: </span>2654-674749501126213674</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="role-pt2">
+                  <div class="roleContent">
+                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                      <div class="roleContent moreInfo ">
+                        <ul>
+                          <li class="details chart-svg">3 North Med/Surg</li>
+                          <li class="details tag-svg">Physician</li>
+                      </div>
+                  </div>
+                </div>
+                <div class="role-pt3">
+                  <div class="roleContent">
+                    <span><svg class="calendar" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                    </svg> Jan 15, 2022</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row lt-underline">
+                <div class="role-pt1">
+                  <h5>Billing Representative</h5>
+                  <div class="roleContent ">
+                    <ul>
+                      <li class="details pin-svg"><span class="lg-li">Woburn, MA, United States</span></li>
+                      <li class="details clock-svg">Needs basis - Flex-time</li>
+                      <li class="li-other lighter"><span class="li-label ">Req #: </span>2864-674238532501126274</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="role-pt2">
+                  <div class="roleContent">
+                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                      <div class="roleContent moreInfo ">
+                        <ul>
+                          <li class="details tag-svg">Administrative/Clerical</li>
+                      </div>
+                  </div>
+                </div>
+                <div class="role-pt3">
+                  <div class="roleContent">
+                    <span><svg class="calendar" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                    </svg> Jan 15, 2022</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row xlt-underline lt-underline">
+                <div class="role-pt1">
+                  <h5>Advanced Practice Nurse/Trauma Coordinator</h5>
+                  <div class="roleContent ">
+                    <ul>
+                      <li class="details pin-svg"><span class="lg-li">Danville, NH, United States</span></li>
+                      <li class="details building-svg">Hospital Main Campus</li>
+                      <li class="details clock-svg">Full time - Days</li>
+                      <li class="li-other lighter"><span class="li-label ">Req #: </span>3254-000474951126213674</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="role-pt2">
+                  <div class="roleContent">
+                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                      <div class="roleContent moreInfo ">
+                        <ul>
+                          <li class="details chart-svg">3 North Med/Surg</li>
+                          <li class="details tag-svg">Nursing</li>
+                      </div>  
+                  </div>
+                </div>
+                <div class="role-pt3">
+                  <div class="roleContent">
+                    <span><svg class="calendar" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+                    </svg> Jan 15, 2022</span>
+                  </div>
+                </div>
+              </div>
+
+             <!--End open positions -->
+
+              <div class="row" id="page">
+                <span class="page">
+                  <strong>Page</strong> 1 of 10
+                  <div class="pagination">
+                    <a href="#">❮</a>
+                    <a class="next" href="#">❯</a>
+                  </div>
+                </span>
+
+              </div>
+              <div class="row">
+                <div class="fullShadow">
+                  <p class="last-p"><span class="larger">Can't find the job you're looking for?</span><br />Join our Talent Network to opt-in to all our current and future opportunities!<br></p>
+                  <div >
+                    <button type="submit" id="talent" class="btn btn-primary mb-3 lastbtn">Join our Talent Network</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
 
       <!-- Start Footer -->
       <footer>

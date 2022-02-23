@@ -1,0 +1,403 @@
+.jobSearch {
+    width: 99%;
+}
+div.searchRow{
+    padding: 1vw 0 1vw 1vw;
+}
+.role-pt3{
+    margin-top: 4.5%;
+}
+svg.calendar{
+    fill: rgb(57, 57, 57);
+    min-width: 15px;
+    min-height: 25px;
+    padding-top: 2%;
+}
+ul li.details {
+    opacity: .85;
+    font-size: .9rem;
+    background-size: 10px;
+    padding-left: 18px;
+    color: #000000;
+    font-weight: normal;
+}
+div.roleContent{
+    opacity: .8;
+}
+.role-pt3 div.roleContent{
+    float: right;
+    font-weight: bold;
+    font-size: .9rem;
+}
+#apply2{
+    margin-bottom: 0 !important;
+    width: 50%;
+    background-color: rgb(0, 117, 186);
+}
+h5{
+    padding-left: 4.5%;
+    color: rgb(7, 137, 213);
+   ;
+}
+ul{
+    opacity: 1 !important;
+}
+div.overlay{
+    padding-left: 2.2vw;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9));
+}
+.overlay h2{
+    font-size: 2.2vw;
+    color: rgb(53 53 53);
+    margin-bottom: 0.3vw;
+}
+.overlay p{
+    color: rgb(53 53 53);
+    font-size: .94vw;
+}
+.lt-underline{
+    padding-top: 1vw;
+    box-shadow: 0 0 0 4px white, 0 5px 1px lightgrey;
+}
+.xlt-underline{
+    padding-top: 1vw;
+    box-shadow:0 0 0 4px white, 0 5px 1px rgb(221 221 221 / 66%);
+}
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: white;
+    float: left;
+    background-color: rgb(0, 27, 61);
+    padding: 4px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.next{
+    background-color: rgb(0, 117, 186);
+   ;
+}
+div.lt-underline div.role-pt1{
+    width:45% 
+}
+div.lt-underline div.role-pt2{
+    width:30% 
+}
+div.lt-underline div.role-pt3{
+    width:25% 
+}
+#map-api{
+    padding: 0 1.5vw;
+}
+#map-api img.map{
+    height: 24vw;
+}
+.lastbtn{
+    float: right;
+    margin-right: 6vw;
+    margin-top: -4.8vw;
+    margin-bottom: 1.8vw !important;
+}
+.results h1 {
+    padding: 2vw;
+    padding-bottom: 0;
+    font-size: 2.8vw;
+    color: rgb(117, 117, 117);
+}
+.clear.more{
+    padding: 0.25vw 0;
+}
+.clear.underline{
+    background: white;
+    -webkit-box-shadow: 0 0 0 4px white, 0 4.5px 2px black;
+    -moz-box-shadow: 0 0 0 4px white, 0 4.5px 2px black;
+    box-shadow: 0 0 0 4px white, 0 4.5px 2px black;
+}
+div.row.bg-light.searchRow{
+    padding-bottom: 0;
+    margin-right: 0;
+}
+div.searchrow div.textbox{
+    padding: 2px;
+}
+.role-pt1{
+    padding: .5vw 1vw 1vw 1vw;
+}
+div.textbox{
+    padding-right: 0;
+}
+.refineSearch{
+    padding: 2vw;
+    padding-right: 0;
+}
+.locationRow{
+    width: 100%;
+}
+.roleContent.moreInfo{
+    padding-left: 0;
+}
+.lg-li{
+    font-size: 1rem;
+}
+li.details{
+    font-size: .63rem;
+    background-size: 9px;
+    padding-left: 13px;
+    color: #4c4c4c;
+    font-weight: normal;
+}
+.resultNum{
+    font-weight: 600;
+    float: right;
+    font-size: .5rem;
+}
+#search{
+    margin-top: 1%;
+    height: 70%;
+    margin-left: 3.5%;
+    width: 80%;
+    background-color: rgb(0, 117, 186);
+    border-style: none;
+    font-size: .8rem;
+    margin-bottom: 0.5rem !important;
+}
+element.style {
+    width: 15vw;
+    margin-right: 1.5vw;
+    margin-left: 1vw;
+}
+div.dropdown{
+    margin-top: 1vw;
+    margin: w;
+    text-align: right;
+    padding-bottom: 1%;
+}
+.dropdown button.btn{
+    width: 28%;
+    margin-left: 1vw;
+}
+div.cards.shadow-sq {
+    padding: 1vw 1vw 0vw 0.5vw;
+}
+.bell{
+    padding-right: .6vw;
+}
+div.depts{
+    padding-bottom: 0.3vw;
+}
+.roleContent ul{
+    padding-bottom: 0;
+}
+.mapHide{
+    margin-bottom: -.5%;
+}
+.mapHide svg{
+    width: 12px;
+    min-width: 7px;
+    fill: rgb(0, 117, 186);
+    padding-top: 0;
+}
+.mapHide{
+    width: 100%;
+    text-align: right;
+    font-size: .8rem;
+    color: rgb(0, 117, 186);
+}
+span.clearInline{
+    display: inline;
+}
+.depts span{
+    font-size: .8rem;
+    clear: right;
+}
+li.details.showMore{
+    padding-left: 0;
+    font-size: .9rem;
+    line-height: 1.1rem;
+}
+.depts img{
+    width: 25px;
+    float: right;
+    margin-right: 1vw;
+    color:#4c4c4c;
+}
+.last-p{
+    padding-top: 1vw;
+    padding-left: 5vw;
+    font-size: 1rem;
+}
+.larger{
+    font-size: 1.5rem;
+}
+span.alertSetup{
+    font-weight: bold;
+    margin: 2vw 1vw 1vw 1vw;
+    padding: 0.8vw;
+    background-color: rgba(241, 241, 241, 0.591);
+    font-size: 1.15rem;
+}
+#map-api img {
+    height: auto;
+}
+.roleContent li {
+    font-size: .9rem;
+    line-height: 1.2;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 20px;
+    background-size: 14px 14px;
+}
+.clear p {
+    font-size: .95rem;
+    color: #4c4c4c;
+    margin-bottom: 0.5rem;
+}
+.clear span{
+    color: rgb(0, 117, 186);
+    font-size: .6rem;
+}
+.searchRow input{
+    padding-right: 0;
+   font-size: .9rem;
+    font-size: .9rem;
+    padding-bottom: 2px;
+    padding-right: 0;
+    margin-left: .5vw;
+}
+.fullShadow{
+    color:#4c4c4c 
+}
+span.expand{
+    float: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-right: 0.3rem;
+}
+.circle-svg{
+    background: url(../Assets/circle.svg);
+}
+.doctors{
+    background-image: url(../Assets/category-image-1.jpg);
+}
+.locationItem {
+    background-size: 74vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    height: 13vw;
+    width: 100%;
+    padding: 0;
+}
+strong{
+    font-weight: bold 
+}
+.foot-start {
+    margin-top: 30px;
+}
+div.pagination{
+    padding-left: 1vw;
+    margin-bottom: -0.7vw;
+}
+span.page{
+    padding: 1.5vw 0.5vw 0;
+    text-align: right;
+    font-size: 1.3rem;
+}
+.btn-secondary {
+    color: black;
+    background-color: #ffffff;
+    border-color: #bec0c3;
+}
+.row>*{
+    padding-right: 0;
+}
+.roleContent {
+    padding: 2vw 0vw 0 1.3vw;
+}
+.dropdown.lt-underline{
+    width: 95%;
+    margin-left: 2.5vw;
+}
+@media screen and (max-width: 990px){
+    .last-p{
+        padding-bottom: 5vw;
+   }
+    .role-pt3{
+        display: none;
+   }
+    .row.lt-underline{
+        padding: 4vw;
+        padding-right: 0;
+        padding-left: 7vw;
+   }
+    #apply2{
+        height: 100%;
+        width: 150%;
+   }
+    .results h1{
+        font-size: 6vw;
+        text-align: center;
+        font-weight: bold;
+   }
+    div.doctors.locationItem{
+        height: 30vw;
+        width: 100%;
+        background-size: 94vw;
+   }
+    .overlay p {
+        font-size: .4rem;
+   }
+    .overlay h2 {
+        font-size: 4vw;
+   }
+    .clear p {
+        font-size: 1.7rem;
+   }
+   #page{
+        padding: 8vw 6vw 0;
+   }
+   div.pagination {
+        padding-left: 4vw;
+    }
+
+    #talent{
+        margin-bottom: 5vw !important;
+    }
+    #map-api img.map {
+        height: 45vw;
+        width: 100vw;
+        overflow: hidden;
+        margin: auto;
+   }
+    .clear span {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+   }
+    div.textbox{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+   }
+    div.textbox2, div.textbox{
+        margin: auto;
+        padding: 1vw 5vw 0vw 4vw;
+   }
+    #search{
+        margin-top: 5vw;
+        width: 50%;
+        height: 60%;
+   }
+    div.row.mapAPI{
+        padding: 0 1.5vw;
+   }
+    .searchbtn{
+        text-align: center;
+        padding-bottom: 6vw;
+   }
+    div.searchRow{
+        padding: 5vw 5vw 5vw 3.8vw;
+   }
+    .refineSearch{
+        padding:6vw 2vw 10vw 9vw;
+   }
+}
