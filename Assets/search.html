@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="CSS/Home.css" rel="stylesheet">
-    <link href="CSS/details.css" rel="stylesheet">
-    <link href="CSS/search.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="Assets/favicon.png">
+    <link href="../CSS/Home.css" rel="stylesheet">
+    <link href="../CSS/details.css" rel="stylesheet">
+    <link href="../CSS/search.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <title>Job Search Results - Woburn Hospital</title>
 </head>
 <body>
@@ -21,11 +21,11 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img class="hospital-logo" alt="Woburn Hospital logo" src="Assets/woburn-hospital_logo.png">
+          <a class="navbar-brand" href="../index.html">
+              <img class="hospital-logo" alt="Woburn Hospital logo" src="woburn-hospital_logo.png">
           </a>
           <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img width="40px" src="Assets/hamburger.png" alt="hamburger menu">
+            <img width="40px" src="hamburger.png" alt="hamburger menu">
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -58,7 +58,7 @@
         <input type="text" class="form-control" id="keyword2" placeholder="Enter a location">
        </div>
        <div class="col-lg-2 col-md-6 col-sm-6 searchbtn">
-          <button type="submit" id="search" href="#" class="btn btn-primary mb-3">Apply Now</button>
+        <a href="#" id="searchbtn" class="btn btn-primary mb-3">Search</a>
        </div>
      </div>
 
@@ -78,7 +78,7 @@
             </div>
             <div class="depts">
               <span>Department
-                <img src="Assets/dash.svg">
+                <img src="dash.svg">
               </span>
               
             </div>
@@ -204,9 +204,9 @@
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
                   </svg>
                 </span>
-                <img class="map" src="Assets/mapAPI.png">
+                <img class="map" src="mapAPI.png">
                 <div class="row text-center">
-                  <span class="alertSetup"><img class="bell" src="Assets/bell-fill.svg">Set up Job Alert</span>
+                  <span class="alertSetup"><img class="bell" src="bell-fill.svg">Set up Job Alert</span>
                 </div>
               </div>
               
@@ -239,7 +239,7 @@
                 </div>
                 <div class="role-pt2">
                   <div class="roleContent">
-                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                    <a href="details.html" id="apply2" class="btn btn-primary mb-3">Apply Now</a>
                       <div class="roleContent moreInfo ">
                         <ul>
                           <li class="details chart-svg">3 North Med/Surg</li>
@@ -269,7 +269,7 @@
                 </div>
                 <div class="role-pt2">
                   <div class="roleContent">
-                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                    <a href="details.html" id="apply2" class="btn btn-primary mb-3">Apply Now</a>
                       <div class="roleContent moreInfo ">
                         <ul>
                           <li class="details tag-svg">Administrative/Clerical</li>
@@ -299,7 +299,8 @@
                 </div>
                 <div class="role-pt2">
                   <div class="roleContent">
-                      <button type="submit" id="apply2" href="#" class="btn btn-primary mb-3">Apply Now</button>
+                    <a href="details.html" id="apply2" class="btn btn-primary mb-3">Apply Now</a>
+                      
                       <div class="roleContent moreInfo ">
                         <ul>
                           <li class="details chart-svg">3 North Med/Surg</li>
@@ -348,10 +349,10 @@
             <div class="col-7 "></div>
             <div class="socials col-md-12 col-lg-5 col-sm-12">
               <p>Follow Us</p>
-              <a href="#"><img class="inline" alt="Mail icon" src="Assets/facebook_circle_003157_ffffff_48.svg"></a>
-              <a href="#"><img class="inline" alt="Twitter icon" src="Assets/twitter_circle_003157_ffffff_48.svg"></a>
-              <a href="#"><img class="inline" alt="Facebook icon" src="Assets/youtube_circle_003157_ffffff_48.svg"></a>
-              <a href="#"><img class="inline" alt="LinkedIn icon" src="Assets/linkedin_circle_003157_ffffff_48.svg"></a>
+              <a href="#"><img class="inline" alt="Mail icon" src="facebook_circle_003157_ffffff_48.svg"></a>
+              <a href="#"><img class="inline" alt="Twitter icon" src="twitter_circle_003157_ffffff_48.svg"></a>
+              <a href="#"><img class="inline" alt="Facebook icon" src="youtube_circle_003157_ffffff_48.svg"></a>
+              <a href="#"><img class="inline" alt="LinkedIn icon" src="linkedin_circle_003157_ffffff_48.svg"></a>
           </div>
         </div>
         </div>
